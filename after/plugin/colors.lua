@@ -1,16 +1,16 @@
+--kanagawa------------------------------------------------
+-- function ColorMyPens(color)
+    -- color = color or "kanagawa"
+    -- vim.cmd.colorscheme(color)
 
+	--vim.api.nvim_set_hl(0, "Normal", {bg = "none"})
+	-- vim.api.nvim_set_hl(0, "NormalFloat", {bg = "none"})
+-- end
 
-function ColorMyPens(color)
-    color = color or "kanagawa"
-    vim.cmd.colorscheme(color)
-
-	vim.api.nvim_set_hl(0, "Normal", {bg = "none"})
-	vim.api.nvim_set_hl(0, "NormalFloat", {bg = "none"})
-end
-
-ColorMyPens()
+-- ColorMyPens()
 
 -- Use this when you can figure out a colorscheme for vim. like rose-pine
+---rose-pine---------------------------------
  function ColorMyPencils(color)
 	color = color or "rose-pine"
 	vim.cmd.colorscheme(color)
@@ -20,3 +20,5 @@ ColorMyPens()
 end
 
 ColorMyPencils() 
+
+-- catpuccin ---------------------------------------------------

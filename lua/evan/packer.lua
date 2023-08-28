@@ -45,6 +45,6 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'}, -- Optional
 	  }
   }
-  use ('rebelot/kanagawa.nvim')
+  --use ('rebelot/kanagawa.nvim')
   use ('nvim-treesitter/nvim-treesitter-context')
   end)
