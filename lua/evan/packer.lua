@@ -47,4 +47,7 @@ return require('packer').startup(function(use)
   }
   --use ('rebelot/kanagawa.nvim')
   use ('nvim-treesitter/nvim-treesitter-context')
+
+  use { 'dccsillag/magma-nvim', run = ':UpdateRemotePlugins' }
+
   end)

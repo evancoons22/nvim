@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/Users/evancoons/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
+  ["magma-nvim"] = {
+    loaded = true,
+    path = "/Users/evancoons/.local/share/nvim/site/pack/packer/start/magma-nvim",
+    url = "https://github.com/dccsillag/magma-nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/evancoons/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
