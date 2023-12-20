@@ -25,9 +25,6 @@ return require('packer').startup(function(use)
       requires = "nvim-treesitter/nvim-treesitter",
   })
   use('nvim-treesitter/playground')
-<<<<<<< HEAD
-  use('ThePrimeagen/harpoon')
-=======
   use('tpope/vim-dadbod')
   use "nvim-lua/plenary.nvim" -- don't forget to add this one if you don't have it yet!
   use {
@@ -35,7 +32,6 @@ return require('packer').startup(function(use)
       branch = "harpoon2",
       requires = { {"nvim-lua/plenary.nvim"} }
   }
->>>>>>> d9aeeb7 (harpoon 2)
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
   use {
