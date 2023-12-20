@@ -192,14 +192,11 @@ _G.packer_plugins = {
     path = "/home/evan/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
-<<<<<<< HEAD
-=======
   ["vim-dadbod"] = {
     loaded = true,
     path = "/home/evan/.local/share/nvim/site/pack/packer/start/vim-dadbod",
     url = "https://github.com/tpope/vim-dadbod"
   },
->>>>>>> d9aeeb7 (harpoon 2)
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/evan/.local/share/nvim/site/pack/packer/start/vim-fugitive",
