@@ -8,11 +8,14 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+  use "nvim-lua/plenary.nvim" -- don't forget to add this one if you don't have it yet!
+
   use {
-	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
+	  'nvim-telescope/telescope.nvim', tag = '0.1.5',
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
+
   use({ 'rose-pine/neovim', as = 'rose-pine', config = function() 
 	  vim.cmd('colorscheme rose-pine')
   end
@@ -26,7 +29,6 @@ return require('packer').startup(function(use)
   })
   use('nvim-treesitter/playground')
   use('tpope/vim-dadbod')
-  use "nvim-lua/plenary.nvim" -- don't forget to add this one if you don't have it yet!
   use {
       "ThePrimeagen/harpoon",
       branch = "harpoon2",
