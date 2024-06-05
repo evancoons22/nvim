@@ -68,4 +68,7 @@ return require('packer').startup(function(use)
 
   use { 'dccsillag/magma-nvim', run = ':UpdateRemotePlugins' }
 
+  use 'Exafunction/codeium.vim'
+
+
   end)
