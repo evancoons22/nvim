@@ -11,7 +11,7 @@
 
 -- Use this when you can figure out a colorscheme for vim. like rose-pine
 ---rose-pine---------------------------------
- function ColorMyPencils(color)
+function ColorMyPencils(color)
 	color = color or "rose-pine"
 	vim.cmd.colorscheme(color)
 
