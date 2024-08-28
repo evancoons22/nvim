@@ -1,5 +1,5 @@
 vim.g.mapleader = ' '
-vim.keymap.set('n', '<leader>jf', vim.cmd.Ex)
+vim.keymap.set('n', '<leader>df', vim.cmd.Ex)
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv") -- highlight to move things around
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
@@ -30,8 +30,8 @@ vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
 vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz") -- quick fix navigations... these were rebound in ./after
 vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
-vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
-vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
+-- vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
+-- vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 -- vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
@@ -47,6 +47,17 @@ end)
 -- don't really need these anymore with tmux 
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>"); -- get out of terminal mode with esc instead of tricks
 vim.keymap.set("n", "<leader>x", "<C-w><C-w>"); -- change windows with <leader>x 
+
+-- testing this
+vim.keymap.set("n", "<leader>x", "<C-w><C-w>"); -- change windows with <leader>x 
+-- switch windows left and right like vim
+vim.keymap.set("n", "<leader>h", "<C-w>h", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>j", "<C-w>j", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>k", "<C-w>k", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>l", "<C-w>l", { noremap = true, silent = true })
+
+-- vim.keymap.set("n", "<leader>o", "o<Esc>"); -- adding a blank space below
+-- vim.keymap.set("n", "<leader>O", "O<Esc>"); -- adding a blank space above 
 -- vim.keymap.set("n", "<leader>o", "o<Esc>"); -- adding a blank space below
 -- vim.keymap.set("n", "<leader>O", "O<Esc>"); -- adding a blank space above 
 
