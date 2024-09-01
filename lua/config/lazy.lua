@@ -84,18 +84,12 @@ require("lazy").setup({
 
             -- Snippets
             { "L3MON4D3/LuaSnip" },             -- Required
-            { "rafamadriz/friendly-snippets" }, -- Optional
+            -- { "rafamadriz/friendly-snippets" }, -- Optional
         }
     },
 
     -- Treesitter context
     "nvim-treesitter/nvim-treesitter-context",
-
-    -- Magma.nvim
-    {
-        "dccsillag/magma-nvim",
-        -- build = ":UpdateRemotePlugins",
-    },
 
     -- Codeium
     "Exafunction/codeium.vim",
@@ -113,13 +107,13 @@ require("lazy").setup({
             "nvim-lua/plenary.nvim",
             "MunifTanjim/nui.nvim",
             --- The below is optional, make sure to setup it properly if you have lazy=true
-            {
-                'MeanderingProgrammer/render-markdown.nvim',
-                opts = {
-                    file_types = { "markdown", "Avante" },
-                },
-                ft = { "markdown", "Avante" },
-            },
+           -- {
+           --     'MeanderingProgrammer/render-markdown.nvim',
+           --     opts = {
+           --         file_types = { "markdown", "Avante" },
+           --     },
+           --     ft = { "markdown", "Avante" },
+           -- },
         },
     }
 
