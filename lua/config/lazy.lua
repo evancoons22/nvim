@@ -91,9 +91,6 @@ require("lazy").setup({
     -- Treesitter context
     "nvim-treesitter/nvim-treesitter-context",
 
-    -- Codeium
-    "Exafunction/codeium.vim",
-
     {
         "yetone/avante.nvim",
         event = "VeryLazy",
