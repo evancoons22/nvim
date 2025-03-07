@@ -14,6 +14,10 @@ vim.keymap.set("n", "N", "Nzzzv")
 -- greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]]) -- paste things without copying, deletes into other register
 
+-- open terminal buffer in vim
+vim.o.splitbelow = true
+vim.keymap.set("n", "<leader>t", ":sp | terminal<CR>")
+
 -- next greatest remap ever : asbjornHaland
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])  -- yank into register for command V
 vim.keymap.set("n", "<leader>Y", [["+Y]])
