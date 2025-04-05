@@ -57,10 +57,15 @@ vim.keymap.set("n", "<leader>x", "<C-w><C-w>"); -- change windows with <leader>x
 -- testing this
 vim.keymap.set("n", "<leader>x", "<C-w><C-w>"); -- change windows with <leader>x 
 -- switch windows left and right like vim
-vim.keymap.set("n", "<leader>h", "<C-w>h", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader>j", "<C-w>j", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader>k", "<C-w>k", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader>l", "<C-w>l", { noremap = true, silent = true })
+--vim.keymap.set("n", "<leader>h", "<C-w>h", { noremap = true, silent = true })
+--vim.keymap.set("n", "<leader>j", "<C-w>j", { noremap = true, silent = true })
+--vim.keymap.set("n", "<leader>k", "<C-w>k", { noremap = true, silent = true })
+--vim.keymap.set("n", "<leader>l", "<C-w>l", { noremap = true, silent = true })
+
+vim.keymap.set("n", "<M-h>", "<C-w>h", { noremap = true, silent = true })
+vim.keymap.set("n", "<M-j>", "<C-w>j", { noremap = true, silent = true })
+vim.keymap.set("n", "<M-k>", "<C-w>k", { noremap = true, silent = true })
+vim.keymap.set("n", "<M-l>", "<C-w>l", { noremap = true, silent = true })
 
 -- vim.keymap.set("n", "<leader>o", "o<Esc>"); -- adding a blank space below
 -- vim.keymap.set("n", "<leader>O", "O<Esc>"); -- adding a blank space above 
