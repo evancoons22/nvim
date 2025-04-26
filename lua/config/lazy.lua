@@ -149,7 +149,7 @@ require("lazy").setup({
                 ft = { "markdown", "Avante" },
             },
         },
-        { 'MeanderingProgrammer/render-markdown.nvim', enabled = false }
+        -- { 'MeanderingProgrammer/render-markdown.nvim', enabled = false }
     }
 
 })
