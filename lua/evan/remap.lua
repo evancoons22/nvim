@@ -53,3 +53,6 @@ vim.keymap.set("n", "<M-h>", "<C-w>h", { noremap = true, silent = true })
 vim.keymap.set("n", "<M-j>", "<C-w>j", { noremap = true, silent = true })
 vim.keymap.set("n", "<M-k>", "<C-w>k", { noremap = true, silent = true })
 vim.keymap.set("n", "<M-l>", "<C-w>l", { noremap = true, silent = true })
+
+-- view the errors / warning on hover with lsp
+vim.keymap.set("n", "<leader>ge", "<C-w>d", { noremap = true, silent = true })
