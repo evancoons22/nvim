@@ -15,7 +15,9 @@ vim.keymap.set("x", "<leader>p", [["_dP]]) -- paste things without copying, dele
 
 -- open terminal buffer in vim
 vim.o.splitbelow = true
+vim.o.splitright = true
 vim.keymap.set("n", "<leader>t", ":sp | terminal<CR>")
+vim.keymap.set("n", "<leader>v", ":vsplit | terminal<CR>")
 
 -- next greatest remap ever : asbjornHaland
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])  -- yank into register for command V
